@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-redis-caching",
+  "version": "1.0.0",
+  "description": "A simple caching solution for Mongoose working with Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedreviljoen/mongoose-redis-caching.git"
+  },
+  "keywords": [
+    "mongoose-redis-caching",
+    "redis caching",
+    "mongoose caching"
+  ],
+  "author": "Pedre Viljoen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedreviljoen/mongoose-redis-caching/issues"
+  },
+  "homepage": "https://github.com/pedreviljoen/mongoose-redis-caching#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mongoose": "^5.4.0",
+    "redis": "^2.8.0"
+  }
+}
