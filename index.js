@@ -16,11 +16,10 @@ module.exports = function (mongoose) {
         if (!this._cache) {
             return exec.apply(this, arguments)
         }
+        console.log(`[LOG] Serving from cache`)
     
         const key = JSON.stringify(
-            Object.assign({}, this.getQuery(), {
-                collection: this.mongooseClient.name
-            })
+            Object.assign({}, this.getQuery())
         )
     
         const cacheValue = await client.get(key)
@@ -33,7 +32,7 @@ module.exports = function (mongoose) {
         }
     
         const result = await exec.apply(this, arguments)
-        client.set(key, JSON.stringify(result), 'EX', 10)
+        client.set(key, JSON.stringify(result), 'EX', 60)
         return result
     }
 }
