@@ -40,11 +40,3 @@ module.exports = function (mongoose) {
         return result
     }
 }
-
-
-// const mongoose = require('mongoose')
-// const mongooseRedisCaching = require('mongoose-redis-caching')
-
-// mongooseRedisCaching(mongoose)
-
-
