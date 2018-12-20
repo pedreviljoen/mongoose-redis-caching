@@ -12,10 +12,7 @@ module.exports = function (mongoose) {
         return this
     }
     
-    mongoose.Query.prototype.exec = async function () {
-        console.log(`[QUERY]: ${this.getQuery()}`)
-        console.log(`[COL]: ${this.mongooseClient.name}`)
-    
+    mongoose.Query.prototype.exec = async function () {    
         if (!this._cache) {
             return exec.apply(this, arguments)
         }
