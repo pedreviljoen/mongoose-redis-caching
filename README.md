@@ -12,6 +12,12 @@ A simple Mongoose Redis caching module.
 npm i mongoose-redis-caching
 ```
 
+OR
+
+```sh
+yarn add mongoose-redis-caching
+```
+
 # Usage
 
 Require in the module
