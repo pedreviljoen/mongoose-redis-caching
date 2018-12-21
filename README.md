@@ -1,5 +1,4 @@
 <div align="center">
-    <img src="./assets/mongodb.png" width="50%" height="75%"/>
     <img src="./assets/redis-logo.png" width="50%" height="75%">
 </div>
 
