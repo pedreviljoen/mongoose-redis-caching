@@ -1,6 +1,6 @@
 {
   "name": "mongoose-redis-caching",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A simple caching solution for Mongoose working with Redis.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,10 @@
   "keywords": [
     "mongoose-redis-caching",
     "redis caching",
-    "mongoose caching"
+    "mongoose caching",
+    "mongoose",
+    "caching",
+    "redis"
   ],
   "author": "Pedre Viljoen",
   "license": "MIT",

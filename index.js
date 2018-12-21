@@ -7,8 +7,12 @@ client.get      = util.promisify(client.get)
 module.exports = function (mongoose) {
     const exec = mongoose.Query.prototype.exec
 
-    mongoose.Query.prototype.cache = function () {
+    mongoose.Query.prototype.cache = function (time) {
         this._cache = true
+
+        if (time) {
+            this._expire = time
+        }
         return this
     }
     
@@ -32,7 +36,7 @@ module.exports = function (mongoose) {
         }
     
         const result = await exec.apply(this, arguments)
-        client.set(key, JSON.stringify(result), 'EX', 60)
+        client.set(key, JSON.stringify(result), 'EX', this._expire ? this._expire : 60)
         return result
     }
 }
