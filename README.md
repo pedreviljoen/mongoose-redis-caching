@@ -35,10 +35,16 @@ mongooseRedisCaching(mongoose);
 
 Add your own Redis URL to your **.env** file. The default is set to your local redis instance.
 
-Then use as below (with Caching):
+Then use as below (with Caching & no compression):
 
 ```javascript
 const blogs = await Blog.find({ _user: req.user.id }).cache();
+```
+
+With compression:
+
+```javascript
+const blogs = await Blog.find({ _user: req.user.id }).cache().compress()
 ```
 
 Use as below with a set time (in seconds) for cached item to expire:
@@ -58,4 +64,4 @@ const blogs = await Blog.find({ _user: req.user.id });
 # Coming soon
 
 - [x] Expire items
-- [ ] Compression of items stored on Redis
+- [x] Compression of items stored on Redis
