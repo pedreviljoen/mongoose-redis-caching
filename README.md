@@ -41,13 +41,11 @@ Then use as below (with Caching):
 const blogs = await Blog.find({ _user: req.user.id }).cache();
 ```
 
-Use as below with a set time (in seconds) for cached item to expire:
+With time expiration (in seconds, default is 60 sec):
 
 ```javascript
-const blogs = await Blog.find({ _user: req.user.id }).cache(60);
+const blogs = await Blog.find({ _user: req.user.id }).cache(15);
 ```
-
-The default time is 60 seconds if no time is provided.
 
 Use as below (without Caching):
 
@@ -58,4 +56,3 @@ const blogs = await Blog.find({ _user: req.user.id });
 # Coming soon
 
 - [x] Expire items
-- [ ] Compression of items stored on Redis
