@@ -35,12 +35,11 @@ mongooseRedisCaching(mongoose);
 
 Add your own Redis URL to your **.env** file. The default is set to your local redis instance.
 
-Then use as below (with Caching):
+Then use as below (with Caching & no compression):
 
 ```javascript
 const blogs = await Blog.find({ _user: req.user.id }).cache();
 ```
-
 With time expiration (in seconds, default is 60 sec):
 
 ```javascript
