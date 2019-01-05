@@ -2,11 +2,19 @@
     <img src="./assets/redis-logo.png" width="50%" height="75%">
 </div>
 
-# About
+# mongoose-redis-caching
+
+> Simple and efficient mongoose redis caching solution
+
+[![Package version](https://img.shields.io/npm/v/mongoose-redis-caching.svg?style=flat-square)](https://npmjs.org/package/mongoose-redis-caching)
+[![License](https://img.shields.io/npm/l/mongoose-redis-caching.svg?style=flat-square)](https://github.com/pedreviljoen/mongoose-redis-caching/blob/master/LICENSE)
+[![npm downloads](https://img.shields.io/npm/dm/mongoose-redis-caching.svg?style=flat-square)](https://npmjs.org/package/mongoose-redis-caching)
+
+## About
 
 A simple Mongoose Redis caching module.
 
-# Installation
+## Installation
 
 ```sh
 npm i mongoose-redis-caching
@@ -18,7 +26,7 @@ OR
 yarn add mongoose-redis-caching
 ```
 
-# Usage
+## Usage
 
 Require in the module
 
@@ -52,6 +60,10 @@ Use as below (without Caching):
 const blogs = await Blog.find({ _user: req.user.id });
 ```
 
-# Coming soon
+## License
+
+MIT
+
+## Coming soon
 
 - [x] Expire items
