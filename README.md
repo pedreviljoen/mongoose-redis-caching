@@ -8,7 +8,7 @@
 
 [![Package version](https://img.shields.io/npm/v/mongoose-redis-caching.svg?style=flat-square)](https://npmjs.org/package/mongoose-redis-caching)
 [![License](https://img.shields.io/npm/l/mongoose-redis-caching.svg?style=flat-square)](https://github.com/pedreviljoen/mongoose-redis-caching/blob/master/LICENSE)
-[![npm downloads](https://img.shields.io/npm/dm/mongoose-redis-caching.svg?style=flat-square)](https://npmjs.org/package/mongoose-redis-caching)
+[![npm downloads](https://img.shields.io/npm/dm/mongoose-redis-caching.svg?style=flat-square)](https://npmjs.org/package/mongoose-redis-caching) [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/mongoose-redis-caching.svg)](https://greenkeeper.io/)
 
 ## About
 
