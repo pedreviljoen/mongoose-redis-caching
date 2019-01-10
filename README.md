@@ -10,7 +10,9 @@
 [![License](https://img.shields.io/npm/l/mongoose-redis-caching.svg?style=flat-square)](https://github.com/pedreviljoen/mongoose-redis-caching/blob/master/LICENSE)
 [![npm downloads](https://img.shields.io/npm/dm/mongoose-redis-caching.svg?style=flat-square)](https://npmjs.org/package/mongoose-redis-caching)
 [![Travis CI build status](https://img.shields.io/travis/pedreviljoen/mongoose-redis-caching.svg?style=flat-square)](https://travis-ci.org/pedreviljoen/mongoose-redis-caching)
- [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/mongoose-redis-caching.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/mongoose-redis-caching.svg)](https://greenkeeper.io/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 
 
 ## About
