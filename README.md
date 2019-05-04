@@ -13,6 +13,8 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/mongoose-redis-caching.svg)](https://greenkeeper.io/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+[![Package Quality](https://npm.packagequality.com/badge/mongoose-redis-caching.png)](https://packagequality.com/#?package=mongoose-redis-caching)
+
 ## About
 
 A simple Mongoose Redis caching module.
