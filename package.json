@@ -1,6 +1,6 @@
 {
   "name": "mongoose-redis-caching",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "A simple caching solution for Mongoose working with Redis.",
   "main": "index.js",
   "scripts": {
@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/pedreviljoen/mongoose-redis-caching#readme",
   "dependencies": {
-    "dotenv": "^8.0.0",
-    "mongoose": "^5.4.15",
-    "redis": "^2.8.0"
+    "dotenv": "8.0.0",
+    "mongoose": "5.5.10",
+    "redis": "2.8.0"
   },
   "devDependencies": {
-    "husky": "^2.1.0",
-    "prettier": "1.18.0"
+    "husky": "2.1.0",
+    "prettier": "1.18.2"
   }
 }
