@@ -36,7 +36,7 @@
     "redis": "2.8.0"
   },
   "devDependencies": {
-    "husky": "2.4.1",
+    "husky": "2.5.0",
     "prettier": "1.18.2"
   }
 }
