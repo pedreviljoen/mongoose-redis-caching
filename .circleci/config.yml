@@ -54,14 +54,14 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build:
-        filters:
-          branches:
-            only:
-              - develop
-              - master
-      - deploy:
-        filters:
-          branches:
-            only:
-              - master
+        - build:
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+        - deploy:
+          filters:
+            branches:
+              only:
+                - master
