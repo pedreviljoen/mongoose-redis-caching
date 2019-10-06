@@ -12,6 +12,7 @@
 [![CircleCI](https://circleci.com/gh/pedreviljoen/mongoose-redis-caching/tree/master.svg?style=svg)](https://circleci.com/gh/pedreviljoen/mongoose-redis-caching/tree/master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/mongoose-redis-caching.svg)](https://greenkeeper.io/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Known Vulnerabilities](https://snyk.io//test/github/pedreviljoen/mongoose-redis-caching/badge.svg?targetFile=package.json)](https://snyk.io//test/github/pedreviljoen/mongoose-redis-caching?targetFile=package.json)
 
 [![Package Quality](https://npm.packagequality.com/badge/mongoose-redis-caching.png)](https://packagequality.com/#?package=mongoose-redis-caching)
 
