@@ -1,6 +1,6 @@
 {
   "name": "mongoose-redis-caching",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "A simple caching solution for Mongoose working with Redis.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/pedreviljoen/mongoose-redis-caching#readme",
   "dependencies": {
-    "dotenv": "8.1.0",
+    "dotenv": "8.2.0",
     "mongoose": "5.7.5",
     "redis": "2.8.0"
   },
