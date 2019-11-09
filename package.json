@@ -1,6 +1,6 @@
 {
   "name": "mongoose-redis-caching",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "A simple caching solution for Mongoose working with Redis.",
   "main": "index.js",
   "scripts": {
