@@ -33,7 +33,7 @@
   "homepage": "https://github.com/pedreviljoen/mongoose-redis-caching#readme",
   "dependencies": {
     "dotenv": "8.2.0",
-    "mongoose": "5.9.12",
+    "mongoose": "5.12.3",
     "redis": "3.0.0"
   },
   "devDependencies": {
